@@ -1,0 +1,32 @@
+*{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    margin: 0;
+}
+h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin: 0;
+}
+p{
+    height: 0vh;
+}
+#title{
+    color: #ffff;
+    height: 4rem;
+    display: flex;
+    padding-left: 9rem;
+}
+#section-title{
+    height: 4rem;
+    background-color: #02A28F;
+}
+.container{
+    padding: 3.2rem 9rem;
+}
