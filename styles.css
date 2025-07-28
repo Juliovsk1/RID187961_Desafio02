@@ -35,20 +35,25 @@ p{
     height: 25rem;
     width: 39rem;
 }
-.container{
-    padding: 3.2rem 0rem 0 9rem;
+#titulo-populares{
+    background-color: #02A28F;
+    padding-left: 1rem;
+    color: #ffff;
+    border-radius: 5px;
+}
+#post-populares{
+    padding-left: 1.5rem;
 }
 .bold{
     font-weight: bold;
 }
 .section-top{
     flex: 1;
-    padding: 20px;
 }
 .part1{
     display: flex;
+    
 }
-.teste{
-    flex: 1;
-    padding: 20px;
+.container{
+    padding: 3.2rem 7rem 0 7rem;
 }
