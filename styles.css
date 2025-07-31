@@ -12,8 +12,17 @@ h1{
     font-size: 2.5rem;
     margin: 0;
 }
+h2{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
 p{
     margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 #title{
@@ -27,33 +36,41 @@ p{
     background-color: #02A28F;
     width: 100vw;
 }
-#texto-destaque{
-    background-image: url(/img/destaque.jpg);
+#texto-destaque {
+    background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(0,0,0,0)), url(/img/destaque.jpg);
     background-size: cover;
+    background-position: center;
+    width: 50vw;
+    height: 29vw;
     color: #ffff;
     border-radius: 10px;
-    height: 25rem;
-    width: 39rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 1.5rem 1.5rem;
 }
 #titulo-populares{
     background-color: #02A28F;
-    padding-left: 1rem;
+    padding: .5rem 0rem .5rem 1rem;
     color: #ffff;
     border-radius: 5px;
+    font-weight: 700;
+    font-style: bold;
+    margin: 0;
 }
 #post-populares{
     padding-left: 1.5rem;
+    width: 25vw;
 }
 .bold{
     font-weight: bold;
 }
 .section-top{
-    flex: 1;
+    margin: 0;
 }
 .part1{
     display: flex;
-    
 }
 .container{
-    padding: 3.2rem 7rem 0 7rem;
+    padding: 3.2rem 10% 0 10%; 
 }
