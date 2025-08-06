@@ -9,99 +9,42 @@ body{
 }
 h1{
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin: 0;
 }
 h2{
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 p{
     font-size: 1rem;
     margin: 0;
 }
-#texto-destaque img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-#title{
-    color: #ffff;
-    height: 4rem;
-    display: flex;
-    padding-left: 9rem;
-}
-#section-title{
-    height: 4rem;
-    background-color: #02A28F;
-    width: 100vw;
-}
-#texto-destaque {
-    background-image: linear-gradient(360deg, rgba(0,0,0,0.9), rgba(0,0,0,0)), url(/img/destaque.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 48vw;
-    height: 29vw;
-    color: #ffff;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0 0 1.5rem 1.5rem;
-}
-#titulo-populares{
-    background-color: #02A28F;
-    padding: .7rem 1rem;
-    color: #ffff;
-    border-radius: 10px;
-    font-weight: 700;
-    font-style: bold;
-    margin: 0;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
-}
-#post-populares{
-    padding-left: 1.5rem;
-    width: 24vw;
-}
-#posts{
-    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
-    display: flex;
-    border-radius: 10px;
-    margin-top: 2.2rem;
-}
-#posts img {
-    max-width: 100%;
-    width: 35%;
-    height: 10%;
-    border-radius: 10px;
-    display: block;
-}
-#posts p {
-    padding: 0 0 0 .8rem ;
-}
- #titulo-recentes{
-    background-color: #02A28F;
-    padding: .7rem 1rem;
-    color: #ffff;
-    border-radius: 10px;
-    font-weight: 700;
-    font-style: bold;
-    margin: 0;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
- }
 .bold{
-    font-weight: bold;
+    font-weight: 700;
 }
-.section-top{
-    margin: 0;
+#Title{
+    background-color: #02A28F;
+    color: white;
+    margin-bottom: 8vh;
 }
-.part1{
+#Title h1{
+    padding: 0.8rem 19vh;
+}
+#post-inicial{
+    border: 1px solid black;
+}
+#posts-populares {
+    border: 1px solid black;
+}
+.posts-container {
     display: flex;
+    gap: 2rem; /* espaço entre os posts */
+    flex-wrap: wrap; /* responsivo em telas pequenas */
+}
+#post-inicial{
+    flex: 1 1 100px; /* cresce, encolhe, largura mínima */
 }
 .container{
-    padding: 3.2rem 10% 0 10%; 
-}
-.cardPopulares{
-    padding: .7rem .7rem;
+    padding: 0 19vh;
 }
