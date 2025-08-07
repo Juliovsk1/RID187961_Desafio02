@@ -9,12 +9,12 @@ body{
 }
 h1{
     font-weight: 700;
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     margin: 0;
 }
 h2{
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 p{
     font-size: 1rem;
@@ -30,21 +30,36 @@ p{
 }
 #Title h1{
     padding: 0.8rem 19vh;
+    font-size: 2.3rem;
 }
 #post-inicial{
     border: 1px solid black;
+    max-width: 100%;
+    width: 35%;
 }
 #posts-populares {
-    border: 1px solid black;
+    background-color: #02A28F;
+    color: white;
 }
-.posts-container {
-    display: flex;
-    gap: 2rem; /* espaço entre os posts */
-    flex-wrap: wrap; /* responsivo em telas pequenas */
+#posts-populares h2 {
+    margin: 0;
 }
 #post-inicial{
-    flex: 1 1 100px; /* cresce, encolhe, largura mínima */
+    flex: .5 1 41vw;
+}
+#posts-populares{
+    flex: .5 1 14vw;
+    height: 3.2rem;
+    border-radius: 10px;
+}
+#posts-populares h2{
+    padding: .7rem 1.2rem;
 }
 .container{
     padding: 0 19vh;
+}
+.posts-container {
+    display: flex;
+    gap: 1.2rem;
+    flex-wrap: wrap;
 }
